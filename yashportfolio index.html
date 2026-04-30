@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YASH'S PORTFOLIO </title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    body {
+        background: #0f172a;
+        color: white;
+    }
+
+    header {
+        padding: 20px;
+        text-align: center;
+        background: #1e293b;
+    }
+
+    header h1 {
+        color: cyan;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: cyan;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .card {
+        background: #1e293b;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #1e293b;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Yash Jha</h1>
+    <p>Aspiring Cybersecurity Expert 💻🔐</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am learning Cybersecurity this is my second project as a html developer</p>
+    <button class="btn" onclick="showMessage()">Click Me</button>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">VIDEO EDITOR 
+    </div>
+    <div class="card">FOREX TRADER </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">RCB 2016 SUMMARY WEBSITE</div>
+    <div class="card">Portfolio Website 🌐</div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yjha5051@gmail.com
+        , NO:- 9584061592
+    </p>
+</section>
+
+<footer>
+    <p>© BLESSED BY MOTHER AND FATHER SUPPORT </p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Welcome to my portfolio I work with trust   😎");
+    }
+</script>
+
+</body>
+</html>
